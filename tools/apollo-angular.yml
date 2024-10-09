@@ -1,8 +1,8 @@
 overwrite: true
-schema: 
-  - http://localhost:7080/graphql
+schema:
+  - https://countries.trevorblades.com/graphql
   - libs/graphql/src/lib/client/schema.gql.ts
-documents: 
+documents:
   - "libs/**/*.ts"
   - "!libs/graphql/src/lib/apollo-angular.ts"
   - "apps/portal/src/**/*.ts"
